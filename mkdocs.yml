@@ -1,0 +1,7 @@
+site_name: My Docs
+theme:
+  name: material
+# Main navigation menu, edit to create your sub menu; retain main menu.
+nav:
+    - Cypress course:                       cypress-course/cypress-course.md
+    - Cypress resources:                    cypress-resources/cypress.md
