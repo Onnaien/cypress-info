@@ -1,2 +1,2 @@
 # cypress
-https://www.cypress.io/ information and code
+https://www.cypress.io/ information
