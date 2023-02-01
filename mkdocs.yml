@@ -3,5 +3,6 @@ theme:
   name: material
 # Main navigation menu, edit to create your sub menu; retain main menu.
 nav:
+    - Welcome:                              index.md
     - Cypress course:                       cypress-course/cypress-course.md
     - Cypress resources:                    cypress-resources/cypress.md

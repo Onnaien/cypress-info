@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Welcome to my Cypress site
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Select [Cypress course](cypress-course/cypress-course.md) to get help with installing prerequisites to the [learn.cypress.io course](https://learn.cypress.io)
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Select [Cypress resources](cypress-resources/cypress.md) to get information on useful sites, courses and other resources.
