@@ -200,9 +200,9 @@ check what is installed and upgrade examples (just to give an idea of what it ca
 
 Install [nvm](https://github.com/coreybutler/nvm-windows):
 
-  ```powershell
-  winget install --id CoreyButler.NVMforWindows
-  ```
+```powershell
+winget install --id CoreyButler.NVMforWindows
+```
 
 ### node installation by using nvm (including npm tool) for Cypress course (latest Long Term Support)
 
@@ -210,29 +210,29 @@ Install [nvm](https://github.com/coreybutler/nvm-windows):
 
   Install latest verson of Long Time Support version of node:
 
-  ```powershell
-  nvm install lts
-  ```
+```powershell
+nvm install lts
+```
 
 ### Optional npm add-on
 
 If you run npm commands very often, install this module globally to make life easier, ref. [organizing npm scripts](https://glebbahmutov.com/blog/organize-npm-scripts/) and [npm-quick-run](https://github.com/bahmutov/npm-quick-run):
 
 ```powershell
-  npm i -g npm-quick-run
-  ```
+npm i -g npm-quick-run
+```
 
 ### windows powershell addons
 
-  ```powershell
-  winget install --id JanDeDobbeleer.OhMyPosh
-  code $PROFILE
-  ```
+```powershell
+winget install --id JanDeDobbeleer.OhMyPosh
+code $PROFILE
+```
 
 Add these lines to the file:
 
-  ```powershell
-  #-----------------------------------------------------------
+```powershell
+#-----------------------------------------------------------
 # Prompt theme engine
 # https://ohmyposh.dev/
 #-----------------------------------------------------------
@@ -250,7 +250,7 @@ Set-PSReadLineOption -EditMode Windows
 Set-PSReadLineOption -EditMode Windows
 Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
-  ```
+```
 
 You will get a nice informal command prompt and history features when writing a command.
 
