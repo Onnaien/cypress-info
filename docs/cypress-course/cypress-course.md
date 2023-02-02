@@ -61,6 +61,7 @@ Now goto the download page and select the LST version, download and install IF y
 ## git
 
 Check if you have git installed
+
   ```powershell
   git --version
   ```
@@ -74,11 +75,13 @@ If not installed, install by:
 ## github cli
 
 Check if installed:
+
   ```powershell
   winget list --id GitHub.cli
   ```
 
 If result is "No installed package found matching input criteria.", install by:
+
   ```powershell
   winget install --id GitHub.cli
   ```
